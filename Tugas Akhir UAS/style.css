@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@400;500;700&family=Questrial&family=Sen:wght@400;700;800&display=swap');
+*{
+    margin: 0;
+    font-family: 'Questrial', sans-serif;
+}
+header{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(189, 207, 255);
+    position: relative;
+}
+.nav{
+    display: flex;
+    height: 75px;
+    align-items: center;
+    
+}
+.burger{
+    padding: 5px;
+}
+.burger div{
+    height: 4px;
+    width: 25px;
+    background-color: black;
+    margin: 5px;
+}
+ul {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;   
+    width: 20%;
+    padding: 10px;
+    border-bottom: 3px solid black;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+.banner{
+    display: flex;
+    padding: 30px;
+}
+.banner div{
+    width: 50%;
+    height: 300px;
+
+}
+.isi-head h1{
+    font-size: 120px;
+    
+}
+.isi-head p{
+    font-size: 30px;
+}
+.isi-head2{
+    background-color: rgb(189, 189, 189);
+    border-radius: 20px;
+    padding: 20px;
+}
+.judul{
+    
+    border-bottom: 5px solid black;
+    height: 50px;
+
+}
+ .isi-head2 h1{
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 400;
+}
+.isi-head2 p{
+    border-top: 5px solid black;
+    padding: 20px;
+    font-size: 30px;
+}
+.isi-head2 button{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.banner2{
+    width: 90%;
+    height: 300px;
+    margin-left: 50px;
+    background-color: rgb(189, 189, 189);
+    display: flex;
+    justify-content: space-around;
+    border-top-left-radius: 30px;
+    padding: 30px;
+}
+
+.banner2 h1{
+    text-align: center;
+    font-size: 50px;
+}
+.banner2 p{
+    font-size: 32px;
+    text-align: center;
+    padding: 10px 10px;
+}
+.banner2 button{
+    padding: 20px 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 150px;
+    margin-top: 80px;
+}
+.container{
+    display: flex;
+    ;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+.isi2{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding-right:50px ;
+}
+.isi2 div{
+    background-color:rgb(189, 189, 189) ;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+.isi2 div p{
+    font-size: 25px;
+    padding-top: 10px;
+}
+.isi1{
+    padding:  300px 0px ;
+    padding-left: 50px;
+}
+.isi1 h1{
+    font-size: 100px;
+}
+.isi1 p{
+    font-size: 50px;
+}
+.isi1 button{
+    font-size: 30px;
+    padding: 30px 80px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 10px 9px;
+    margin-top: 50px;
+}
+footer{
+    height:1000px ;
+    display: block;
+    background-color:#C4C4C4 ;
+    margin-top: 300px;
+    position: relative;
+}
+.foot1{
+    width: 100%;
+    display: flex;
+    margin-top: -200px;
+    position: absolute;
+    margin-left: 220px;
+}
+.item1{
+    width: 40%;
+    height: 330px;
+    margin-left: 300px;
+    padding: 20px;
+    background-color: #8B9492;
+    color: white;
+}
+.item1 p{
+    font-size: 25px;
+}
+.item1 h1{
+    font-size: 50px;
+}
+.item2{
+    background-color: #495962;
+    width: 300px;
+    color: white;
+    font-size: 50px;
+}
+.item2 p{
+    padding: 15px;
+}
+.item1 button{
+    padding: 20px 50px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.foot2{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.msg{
+    background-color: aliceblue;
+    width: 800px;
+    height: 500px;
+    margin-top: 200px;
+    border-radius: 6px;
+    padding: 50px;
+    font-size: 50px;
+}
+.contact{
+    margin-top: 200px;
+    font-size: 30px;
+}
+.contact h1{
+    padding-bottom: 20px;
+}
+.contact p{
+    padding: 10px;
+}
+.msg input{
+    height:80px;
+    border: none;
+    border-bottom: 3px solid black;
+    border-radius: 3px;
+}
+.msg input[placeholder]{
+    font-size: 30px;
+}
+.msg div{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.msg div input{
+    width: 350px;
+}
+.mesg {
+    margin-top: 50px;
+    width: 800px;
+}
+.msg button{
+    padding:  20px 50px;
+    float: right;
+    margin-top: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.tanggal{
+    display: block;
+    width: 100%;
+    height: 200px;
+    background: #8B9492;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    display: flex;
+    
+}
+.date{
+    display: block;
+}
+.date p{
+    padding: 10px;
+    font-weight: 600;
+}
+.jam{
+    display: flex;
+    display: block;
+    width: 100%;
+    height: 200px;
+    background: #8B9492;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    display: flex;
+    margin-top: -200px;
+    color: white;
+}
